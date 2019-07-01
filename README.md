@@ -25,3 +25,25 @@ They can be used for:
 
 I have written a script in python using "pytesseract" module which is python based wrapper of tesseract-OCR(open source).
 This can extract text from any type of file like image(.jpg,.jpeg,.png,etc.) and pdf. And the extracted text could be saved into 3 different type files like .docx, .xlsx and .txt
+
+
+Run run.py script and see the magic...!!!
+
+It will convert your image data into editable data and you can save it into  diiferent formats according to your choice and text format is default.
+
+There are three directories which are as follows:
+1.) test_data :- which stores input image or pdf.
+
+2.) save_data :- it stores image type of pdf pages seperately.
+
+3.) output_data :- it stores the outputs of the input images
+
+
+This works very fine and it is highly accurate on images which contains paragraphs or well spaced words in image. If there is any table type structure in image then the iamge should be clear.
+
+For more information please refer to these links: https://github.com/tesseract-ocr/tesseract
+https://pypi.org/project/pytesseract/
+
+
+
+
